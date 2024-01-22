@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.profile img{
+    border: 1px solid #000000;
+    border-radius: 50%;
+    padding: 5px;
+}
+.username h2{
+    font-weight: 600;
+    margin-left: 10px;
+}
+.repos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+}
+.repo{
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+}
+.repo p{
+    margin-top: 10px;
+    font-weight: 400;
+}
+.repo button{
+    font-weight: 600;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.nextprevious{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.previous button{
+    color: #fff;
+    background-color: lightgreen;
+    font-weight: 600;
+    padding: 10px 15px 10px 15px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 20px 10px 0px;
+    cursor:progress;
+}
+.next button{
+    color: #fff;
+    background-color: lightgreen;
+    font-weight: 600;
+    padding: 10px 25px 10px 25px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0px 10px 20px;
+    cursor:progress;
+}
+
+/* Hover effects */
+
+.repo button:hover{
+    background-color: gray;
+    color: #fff;
+}
+
+.previous button:hover{
+    background-color: greenyellow;
+    color: #fff;
+}
+.next button:hover{
+    background-color: greenyellow;
+    color: #fff;
+}
